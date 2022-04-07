@@ -1,0 +1,125 @@
+h1 {
+    font-family: Arial;
+    font-size: 100px;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CFCFC5;
+    font-size: 40px;
+}
+.header {
+    width: 85%;
+    text-align: left;
+    font-size: 30px;
+    padding: 40px;
+    color: white;
+    margin: 15%;
+    margin: auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CFCFC5;
+    font-size: 15px;
+}
+
+
+.column {
+    margin: inherit;
+    padding: 100px;
+    width: 35%;
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    color: white;
+    margin: inherit;
+}
+
+i{
+    font-size: 20px;
+}
+
+body {
+    background: #1F2833;
+    color: white;
+    margin: 15%;
+    margin: auto;
+}
+
+
+
+a{
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    padding: 40px;
+    color: #45A29E;
+    font-size: 10px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+hr{
+    color: #45A29E;
+    width: 85%;
+}
+
+
+#home {
+    margin-top: 2%;
+    margin-right: 97%;
+    margin-left: 3%;
+    display: inline-block;
+    position: fixed;
+}
+#resume {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 95%;
+    display: inline-block;
+    position: fixed;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+nav {
+    font-family: 'Source Code Pro', monospace;
+    color: #45A29E;
+    text-align: center;
+    font-size: 15px;
+    
+}
+li {
+    color: #45A29E;
+    margin-right: 2%;
+}
+.experience {
+    width: 85%;
+    margin: inherit;
+}
+.contact {
+    width: 85%;
+    font-family: 'Source Code Pro', monospace;
+    color: #45A29E;
+    margin: inherit;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
