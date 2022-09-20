@@ -35,22 +35,6 @@ button.scrollButton{
     justify-content: space-around;
 }
 
-.col-2{
-    flex-basis: 50%;
-    min-width: 300px;
-}
-
-.col-2 img{
-    max-width: 100%;
-    padding: 40px 0;
-}
-
-.col-2 h1{
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
-}
-
 nav.navigation{
     display: none;
 }
@@ -78,8 +62,6 @@ a{
     color: white;
 }
 
-
-
 .homeContainer h1, .experienceContainer h1, .aboutContainer h1, .contactContainer h1{
     text-align: center;
     font-size: 60px;
@@ -92,7 +74,6 @@ a{
     justify-content: center;
     height: 100vh;
     background-color: black;
-    
 }
 
 .homeContainer p, .experienceContainer p, .aboutContainer p, .contactContainer p{
@@ -119,27 +100,6 @@ a{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-
-.experienceIntroduction .col-2{
-    text-align: center;
-    margin: auto;
-    padding: 25px;
-}
-
-.experienceIntroduction i{
-    font-size: 30px;
-    color:rgb(0, 0, 0);
-}
-
-.aboutIntroduction i{
-    font-size: 30px;
-    color:rgb(49, 50, 49);
-}
-
-.aboutIntroduction img{
-    width: 300px;
 }
 
 .column{
@@ -242,10 +202,6 @@ form button{
 .toggleBox a i{
     color: white;
     transition: color 0.5s;
-}
-
-.toggleBox a i: hover{
-    
 }
 
 section{
