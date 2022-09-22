@@ -11,11 +11,23 @@ body{
     font-family: 'Maven Pro', sans-serif;
 }
 
+.experienceSection{
+    font-size: 20px;
+    padding: 50px;
+    background-color: #f1b24a;
+    color: #444444;
+}
+
+.technologies ul{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
 button.scrollButton{
     margin: auto;
-    border: solid white 1px;
-    color: white;
-    background-color: black;
+    border: solid #f1b24a 1px;
+    background-color: #444444;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -28,12 +40,6 @@ button.scrollButton{
     padding: 20px 0 20px 0;
 }
 
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 nav.navigation{
     display: none;
@@ -49,7 +55,7 @@ nav.navigation.active{
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #444444;
 }
 
 nav.navigation a{
@@ -59,7 +65,7 @@ nav.navigation a{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #f1b24a;
 }
 
 .homeContainer h1, .experienceContainer h1, .aboutContainer h1, .contactContainer h1{
@@ -73,7 +79,7 @@ a{
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: black;
+    background-color: #444444;
 }
 
 .homeContainer p, .experienceContainer p, .aboutContainer p, .contactContainer p{
@@ -104,6 +110,29 @@ a{
 
 .column{
     text-align: center;
+}
+
+.column img, .column i{
+    padding: 40px;
+}
+
+i{
+    color: #f1b24a;
+    font-size: 30px;
+}
+
+.technologies ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.technologies ul li{
+   margin: 20px;
 }
 
 .formContainer{
@@ -146,8 +175,8 @@ form input, form textarea{
 
 form button{
     padding: 20px;
-    background: rgb(144, 143, 143);
-    color: white;
+    background: #f1b24a;
+    color: black;
     font-size: 18px;
     border: 0;
     outline: none;
@@ -208,7 +237,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: #444444;
     padding: 20px;
 }
 
@@ -258,6 +287,9 @@ img.close.show{
         padding: 50px 0 50px 0;
     }
 }
+
+
+
 
 
 
