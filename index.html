@@ -14,58 +14,58 @@
         <script src="https://kit.fontawesome.com/3fdbb9d7c0.js" crossorigin="anonymous"></script>
         <link rel="icon" href="myimage.ico?v=1" type="image/x-icon" />
         <link rel="shortcut icon" href="myimage.ico?v=1" type="image/x-icon" />
-
         
     </head>
 
     <body>
-        <section>
-            
-            
-            
-            <nav class="navigation">
-                <a href="index.html">Home</a>
-                <a href="experience.html">Experience</a>
-                <a href="about.html">About Me</a>
-                <a href="contact.html">Contact Me</a>
-            </nav>    
-            
-            <div class="toggleBox">
-                <a onclick="showMenu()" href="#"><img class="menu" src="menu.png"> <img class="close" src="menu.png"></a>
-            </div>
-            
-        </section>
-        
-        <script>
-            function showMenu(){
-                document.querySelector('.navigation').classList.toggle('active');
+        <div class="bgContainer">
+            <section>
                 
-                document.querySelector('.menu').classList.toggle('hide');
-                document.querySelector('.close').classList.toggle('show');
-            }
-        </script>
-        
-        <div class="homeHeader">
-            <div class="homeContainer">
+                <nav class="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="about.html">About Me</a>
+                    <a href="contact.html">Contact Me</a>
+                </nav>    
                 
-                <div class="titleBackground">
-                    <div class="column">
-                        <h1>Jack Machin</h1>
-                        <p>Computer Science Student, Front-end Developer</p>
+                <div class="toggleBox">
+                    <a onclick="showMenu()" href="#"><img class="menu" src="menu.png"> <img class="close" src="menu.png"></a>
+                </div>
+                
+            </section>
+            
+            <script>
+                function showMenu(){
+                    document.querySelector('.navigation').classList.toggle('active');
+                    
+                    document.querySelector('.menu').classList.toggle('hide');
+                    document.querySelector('.close').classList.toggle('show');
+                }
+            </script>
+        
+        
+            <div class="homeHeader">
+                <div class="homeContainer">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="titleBackground">
+                                <div class="column">
+                                    <h1>Jack Machin</h1>
+                                    <p>Computer Science Student, Front-end Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="me.jpg" alt="A photo of me">
+                        </div>
                     </div>
                 </div>
-                <div class="buttonSection">
-                    <button class="scrollButton"><a href="#scrollPoint">Learn More</a></button>
-                </div>
-                
             </div>
         </div>
         
         <div id="scrollPoint"></div>
         <div class="introduction">
             <h1>Introduction</h1>
-            <div class="row">
-                <div class="column">
                     <p>I created this portfolio to showcase my skills
                         and document my experience for anyone that needs
                         or wishes to know about it and there is no doubt that
@@ -84,8 +84,6 @@
                         Interaction Design" taught by Ed De Quincey. This is where I 
                         was first introduced to how websites as well as UI/UX work.                
                     </p>
-                </div>
-            </div>
         </div>
         
 
