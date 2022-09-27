@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -9,8 +14,7 @@ body{
 .experienceSection{
     font-size: 20px;
     padding: 50px;
-    background-color: #1f4762;
-    color: #f1b24a;
+    color: black;
 }
 
 .technologies ul{
@@ -21,8 +25,8 @@ body{
 
 button.scrollButton{
     margin: auto;
-    border: solid #f1b24a 1px;
-    background-color: #1f4762;
+    border: solid #022449 1px;
+    background-color: #F27D42;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -50,79 +54,103 @@ nav.navigation.active{
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: #1f4762;
+    background-color: rgb(255, 255, 255);
 }
 
 nav.navigation a{
     padding: 5px 20px 5px 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 a{
     text-decoration: none;
-    color: #f1b24a;
+    color: black;
 }
 
 .homeContainer h1, .experienceContainer h1, .aboutContainer h1, .contactContainer h1{
-    text-align: center;
     font-size: 60px;
-    color: white;
+    color: black;
     padding: 20px;
 }
 
-.homeHeader, .experienceHeader, .aboutHeader, .contactHeader{
-    display: flex;
-    justify-content: center;
+.homeContainer h1,.homeContainer p{
+    text-align: left;
+}
+
+.experienceContainer h1, .aboutContainer h1, .contactContainer h1{
+    text-align: center;
+}
+
+
+.homeHeader{
     height: 100vh;
-    background-color: #1f4762;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+
+.experienceHeader, .aboutHeader, .contactHeader{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.bgContainer{
+    background-image: url("homebg.jpg");
+    background-size: cover;
+    
 }
 
 .homeContainer p, .experienceContainer p, .aboutContainer p, .contactContainer p{
     font-size: 20px;
-    color: white;
-    text-align: center;
+    color: black;
     padding: 20px;
 }
 
-.introduction h1, .experienceIntroduction h1, .aboutIntroduction h1, .contactIntroduction h1{
+.experienceContainer p, .aboutContainer p, .contactContainer p{
     text-align: center;
+}
+
+.introduction h1, .experienceIntroduction h1, .aboutIntroduction h1, .contactIntroduction h1{
     padding: 40px;
 }
 
 .introduction p, .experienceIntroduction p, .aboutIntroduction p{
-    text-align: center;
     width: 70%;
-    margin: auto;
     padding: 40px;
 }
 
 .introduction, .experienceIntroduction, .aboutIntroduction, .contactIntroduction{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    color: #182833;
+    margin: auto;
+    text-align: center;
+    color: black;
 }
 
 .column{
     text-align: center;
+    margin: auto;
 }
 
-.column img, .column i{
+.column i{
     padding: 40px;
 }
 
+.column img{
+    max-width: 90%;
+    padding-top: 40px;
+}
+
 i{
-    color: #f1b24a;
+    color: #022449;
     font-size: 30px;
 }
 
 .technologies ul{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    width: 50%;
     margin: auto;
     align-items: center;
 }
@@ -233,7 +261,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #153040;
+    background-color: rgb(255, 255, 255, 0.6);
     padding: 20px;
 }
 
@@ -253,6 +281,22 @@ img.close.show{
     display: flex;
 }
 
+.col-2{
+    width: 40%;
+    padding: 40px;
+}
+
+.col-2 img{
+    border-radius: 200px;
+    filter: grayscale(100%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
 @media only screen and (min-width: 991px){
     nav.navigation{
