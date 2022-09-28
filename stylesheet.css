@@ -22,24 +22,6 @@ body{
     font-size: 15px;
 }
 
-
-button.scrollButton{
-    margin: auto;
-    border: solid #022449 1px;
-    background-color: #F27D42;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 35px;
-}
-
-.buttonSection{
-    padding: 20px 0 25px 0;
-}
-
-
 nav.navigation{
     display: none;
 }
@@ -70,11 +52,11 @@ a{
 .homeContainer h1, .experienceContainer h1, .aboutContainer h1, .contactContainer h1{
     font-size: 60px;
     color: black;
-    padding: 20px;
+    padding: 30px;
 }
 
 .homeContainer h1,.homeContainer p{
-    text-align: left;
+    text-align: center;
 }
 
 .experienceContainer h1, .aboutContainer h1, .contactContainer h1{
@@ -83,20 +65,20 @@ a{
 
 
 .homeHeader{
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(255, 255, 255, 0.6);
 }
 
 
 .experienceHeader, .aboutHeader, .contactHeader{
     background-color: whitesmoke;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .bgContainer{
     background-image: url("homebg.jpg");
     background-size: cover;
-    
+    min-height: 100vh;
 }
 
 .homeContainer p, .experienceContainer p, .aboutContainer p, .contactContainer p{
@@ -199,8 +181,8 @@ form input, form textarea{
 
 form button{
     padding: 20px;
-    background: #1f4762;
-    color: #f1b24a;
+    background: #5f5f5f;
+    color: white;
     font-size: 18px;
     border: 0;
     outline: none;
@@ -282,20 +264,24 @@ img.close.show{
 }
 
 .col-2{
-    width: 40%;
+    width: 50%;
     padding: 40px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
 
 .col-2 img{
     border-radius: 200px;
     filter: grayscale(100%);
+    margin: auto;
 }
 
 .row{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    
 }
 
 @media only screen and (min-width: 991px){
@@ -325,6 +311,17 @@ img.close.show{
     
     .buttonSection{
         padding: 50px 0 50px 0;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .homeContainer h1,.homeContainer p{
+        text-align: left;
     }
 }
 
