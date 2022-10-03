@@ -284,6 +284,29 @@ img.close.show{
     display: none;
 }
 
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.cv a{
+    border-radius: 7px;
+    border: solid black 2px;
+    padding: 5px 12px 5px 12px;
+    color: black;
+    transition: color 0.5s;
+    transition: border 0.5s;
+}
+
+.cv a:hover{
+    color:rgb(121, 121, 121);
+    border: solid rgb(121, 121, 121) 2px;
+}
+
 @media only screen and (min-width: 991px){
     nav.navigation{
         display: flex;
